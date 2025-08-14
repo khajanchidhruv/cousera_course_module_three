@@ -1,0 +1,51 @@
+header{
+    text-align: left;
+    /* margin-left: 93px; */
+    font-size: 42px;
+    padding-left: 81px;
+    border: 2px solid black;
+    background-color: grey;
+}
+
+h2{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+html::-webkit-scrollbar-button{
+    width:2px;
+    height: 12px;
+    background-color: black;
+}
+
+hr{
+    color: black;
+    height: 1px;
+    /* width: 50px; */
+    text-decoration-thickness: 10px;
+}
+
+.col-md-12{
+    margin-left: .2px;
+    margin-right: .2px;
+    background-color: rgb(134, 132, 132);
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+.btn-primary {
+    background-color: grey;
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:focus {
+    background-color: darkgrey; /* Slightly darker gray on hover/active */
+    border-color: darkgrey;
+    
+}
+}
+#collapseExample .list-group-item:not(:last-child) { 
+    border-bottom: 1px solid #dee2e6; /* You can adjust the color and thickness */
+}
