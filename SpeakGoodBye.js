@@ -22,7 +22,7 @@ var byeSpeaker = {};
 // See Lecture 52, part 2
 byeSpeaker.speak = function (name) {
   console.log(speakWord + " " + name);
-)
+}
 
 window.byeSpeaker = byeSpeaker;
 
