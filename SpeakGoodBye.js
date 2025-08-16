@@ -25,7 +25,7 @@ byeSpeaker.speak = function (name) {
   console.log(speakWord + " " + name);
 )
 
-window.John = John;
+window.byeSpeaker = byeSpeaker;
 
 })(window);
 
