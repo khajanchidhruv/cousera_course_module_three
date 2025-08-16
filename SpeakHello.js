@@ -21,7 +21,7 @@
   console.log(speakWord + " " + name);
 }
 
-  window.yaakov = yaakov;
+  window.helloSpeaker = helloSpeaker;
 
 })(window);
 
